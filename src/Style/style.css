@@ -1,0 +1,74 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.input_register {
+  width: 35%;
+}
+.input_login {
+  width: 100%;
+}
+.user_register {
+  margin-left: 40%;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  width: 200px;
+}
+.btn_reg {
+  margin-right: 560px;
+}
+.btn_log {
+  margin-right: -20px;
+  width: 150px;
+
+}
+.btn{
+  display: block;
+  margin: 10px;
+
+}
+.btn .button{
+  margin-left: 10px;
+}
+
+
+button:hover {
+  background-color: #0069d9;
+}
+
+h1 {
+  text-align: center;
+  color: #007bff;
+  font-family: cursive;
+  font-weight: bold;
+}
